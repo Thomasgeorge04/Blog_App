@@ -1,5 +1,11 @@
+#This is a blog app that allows user to register and post blogs
+
 from flask import Flask, render_template, url_for
 app = Flask(__name__)
+
+app.config['SECRET KEY'] = '2422241e90658058902011e403344b45'
+
+#List of posts
 
 posts = [
     
